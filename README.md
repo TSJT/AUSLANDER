@@ -1,0 +1,2 @@
+AUSLANDER is a websted created for my boss at CORVALLIS AUTO CLINIC to promote his investent in auto security. 
+Along with the help of many othes; photographers, front and back end developers, engenieers, and such  creative people was this achived. 
