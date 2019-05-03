@@ -1,0 +1,364 @@
+* {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: 0;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+#wrapper{
+    width: auto;
+    margin: 0px;
+    padding: 0px:
+}
+
+/*Language Selection stuff______________________*/
+
+#languageSelectionWindow{
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(0,0,0,0,5)
+    position: fixed;
+    text-align: center;
+    display: none;
+    z-index: 100;
+}
+
+/*header Stuff*/
+
+#header{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(#c9c9c9, white);
+    min-width: 800px;   
+} 
+
+#logo{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 275px;
+}
+
+#headerButtons{
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+    width: 100px;
+    margin-top: 15px
+}
+
+#menu{
+    height: 40px;
+    width: 40px;
+    float: left;
+    cursor: pointer;
+}
+
+#menu img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* #languageButton or language button was not added in this design of website. Refer to printed documetn p/untitled. to reference teh css code */
+
+
+/* Main image display */
+
+#mainImage{
+   width: 100%;
+   height: 600px;
+   background: url(mainImage.png);
+   background-size: cover;
+   background-position: center bottom;
+   text-align: center;
+   color: white;
+   text-shadow: 3px 3px black;
+   padding-top: 150px;
+   font-size: 250%;
+   margin: 0;
+   min-width: 800px;
+}
+
+#mainImage {
+   font-family: 'Lato', sans-serif !important;
+   font-weight: 900;
+   font-style: italic;
+}
+
+#mainImage h3{
+   font-style: italic;
+}
+
+#container{
+   width:auto;
+   text-align: center;
+   display: none;
+}
+
+#product{
+   width: auto;
+   height: 700px;
+   clear: both;
+   background: white;
+   text-shadow: 2px 2px black;
+   min-width: 800px;
+   background: url(product.png);
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+}
+
+#product p{
+   float: left;
+   color: white;
+   font-family: 'Lato', sans-serif !important;
+   font-weight: italic;
+   font-size: 230%;
+   margin-top: 170px;
+   margin-left: 20px;
+   text-align: center;
+}
+
+#technology {
+   width:100%;
+   min-width: 800px;
+   height: 700px;
+   clear: both;
+   background: url(technology.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top right;
+   text-align: center;
+   font-size: 275%;
+   font-family: 'Lato', sans-serif !important;
+   font-weight: 600;
+   font-style: italic;
+   color: white;
+   text-shadow: 2px 2px black
+}
+
+#technology h2, h5, button{
+   position: relative;
+   top: 110px;
+}
+
+.niceButton{
+   font-size:24px;
+   background-color:blue;
+   color: white;
+   padding: 32px 24px;
+   border-radius:4px;
+   box-shadow: 2px 2px black;
+}
+
+.niceButton : hover{
+   background-color: white;
+   color: blue;
+   border: 2px solid blue;
+   cursor: pointer;
+}
+
+#security{
+   width:100%;
+   background: url(security.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 700px;
+   clear: both;
+   min-width: 800px;
+   color: white;
+   font-family: 'Lato', sans-sarif !important;
+   font-weight: 600;
+   font-family: italic;
+   text-align: center;
+}
+
+#security div{
+   position: relative;
+   text-align: left;
+   
+   margin-left: 25px;
+}
+
+#security div h2{
+   font-size: 400%;
+   text-shadow: 2px 2px black;
+}
+
+#security div p{
+   font-size: 185%;
+   text-shadow: 1px 1px black;
+}
+
+#security button{
+   position:relative;
+   top: 300px;
+}
+
+#support{
+   width:100%;
+   min-width:800px;
+   height:700px;
+   clear: both;
+   font-family: 'Lato', sans-sarif !important;
+   font-weight: 600;
+   font-style: italic;
+   text-align: center;
+   font-size: 275%;
+}
+
+/* Footer CSS */
+
+#footer{
+   width: 100%;
+   height:120px;
+   clear:both;
+   min-width: 800px;
+   background: linear-gradient(#c9c9c9, white);
+   color: #595959;
+   font-family:'Lato', sans-sarif !important;
+   font-weight: 100;
+   font-style: italic;
+   border-bottom; 1px solid #939393;
+   position: absolute;
+   margin-bottom; 0px;
+}
+
+#footerLogo img{
+   height: 40px;
+   width: auto;
+   opacity: 0.5;
+   float: left;
+   position: relative;
+   top: 10px;
+}
+
+#footerLogo{
+   position:relative;
+   top: 10px;
+   height: 100px;
+   width: 250px;
+   border-right: 1px solid rgba(0,0,0,0.3)
+}
+
+#footerLinks{
+   display: inline;
+   position: relative;
+   float: right;
+   right: 10px;
+   top: -190px;
+   text-align: right;
+}
+
+#madeInUSA{
+   width: 150px;
+   text-align
+}
+
+#madeInUSA{
+   width: 150px;
+   text-align : center;
+   position: relative;
+   clear: both;
+   top: -95px;
+   margin: auto;
+}
+#madeInUSA img{
+   width: 150px;
+}
+
+.footerLink{
+   display: inline-block;
+   color:#595959;
+}
+
+.footerLink:visited{
+   color:#595959;
+}
+
+.footerLink:hover{
+   color:black;
+}
+
+.hidden{
+   display:none
+/*hidden class to be used for anything*/
+}
+
+/*Carjack defense System Page*/
+
+
+#AboutandCDS{
+   width: 100%;
+   min-height:600px;
+   min-width: 800px;
+   background: linear-gradient(#c9c9c9,white);
+}
+
+#AboutandCDS h1{
+   text-align: center;
+   font-family: 'Lato', sans-serif !important;
+   font-weight: 900;
+   font-style: italic;
+   font-size: 300%;
+   position: relative;
+   top: 20px;
+}
+
+.bigVideo{
+   width: 100%;
+   min-width: 800px;
+}
+
+.cdsAboutPageDivs{
+   width:33%;
+   height:300px;
+   text-align:center;
+   display:inline-block;
+   position: relative;
+   top: 40px;
+   font-family: 'Lato', sans-serif !important;
+   font-weight: 600;
+   font-style; Italic;
+   font-size: 150%;
+}
+
+.cdsAboutPageDivs h3{
+   text-align: left;
+   position: relative;
+   margin-left: 15px;
+}
+
+.cdsAboutPageDivs p{
+   text-align: left;
+   font-size: 75%;
+   font-weight: 150;
+   position: relative;
+   margin-left: 15px;
+}
+
+#safety, #Hightech{
+   float: left;
+}
+
+#innovation, #Control{
+   clear: both;
+}
+
+#simplicity, #Passionate{
+   float: right;
+}
+
+.aboutImg{
+   width: 95%;
+   border-radius: 10px;
+   box-shadow: 4px 4px 4px #5b5b5b;
+}
